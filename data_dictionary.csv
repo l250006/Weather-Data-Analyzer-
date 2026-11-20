@@ -1,0 +1,27 @@
+field,unit,meaning,dtype
+city,text,city name,str
+country,text,country name,str
+latitude,°,city latitude,float64
+longitude,°,city longitude,float64
+date,date,calendar date of the observation,datetime64[us]
+year,year,year derived from date,int32
+month,1-12,month derived from date,int32
+day,1-31,day of month derived from date,int32
+season,text,meteorological season (hemisphere-aware),str
+weather_code,WMO code,most severe weather condition of the day,int64
+temperature_2m_mean,°C,daily mean temperature (2 m),float64
+temperature_2m_max,°C,daily maximum temperature,float64
+temperature_2m_min,°C,daily minimum temperature,float64
+precipitation_sum,mm,total daily precipitation,float64
+rain_sum,mm,daily rain only,float64
+precipitation_hours,hours,hours with precipitation,float64
+wind_speed_10m_max,km/h,maximum wind speed (10 m),float64
+wind_gusts_10m_max,km/h,maximum wind gust (10 m),float64
+wind_direction_10m_dominant,°,dominant wind direction,int64
+shortwave_radiation_sum,MJ/m²,daily solar radiation sum,float64
+sunshine_duration,seconds,daily sunshine duration,float64
+daylight_duration,seconds,daily daylight duration,float64
+relative_humidity_2m_mean,%,mean relative humidity,int64
+dew_point_2m_mean,°C,mean dew point,float64
+cloud_cover_mean,%,mean cloud cover,int64
+pressure_msl_mean,hPa,mean sea-level pressure,float64
